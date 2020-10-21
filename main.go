@@ -15,7 +15,7 @@ func main() {
 
 		f := fib()
 
-		res := &response{Message: "Hello World"}
+		res := &response{Message: "Hello World - resolving 3rd party cookies FTW"}
 
 		for _, e := range os.Environ() {
 			pair := strings.Split(e, "=")
